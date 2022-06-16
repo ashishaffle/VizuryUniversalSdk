@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7557D6D5285BAA870059DE7C /* VizuryEventLoggerSdk.docc in Sources */ = {isa = PBXBuildFile; fileRef = 7557D6D4285BAA870059DE7C /* VizuryEventLoggerSdk.docc */; };
+		7557D6DB285BAA870059DE7C /* VizuryEventLoggerSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7557D6D0285BAA870059DE7C /* VizuryEventLoggerSdk.framework */; };
+		7557D6E0285BAA870059DE7C /* VizuryEventLoggerSdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557D6DF285BAA870059DE7C /* VizuryEventLoggerSdkTests.swift */; };
+		7557D6E1285BAA870059DE7C /* VizuryEventLoggerSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 7557D6D3285BAA870059DE7C /* VizuryEventLoggerSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7557D6FA285BAD070059DE7C /* VizurySwiftSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557D6EB285BAD060059DE7C /* VizurySwiftSampleApp.swift */; };
+		7557D6FB285BAD070059DE7C /* VizurySwiftSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557D6EB285BAD060059DE7C /* VizurySwiftSampleApp.swift */; };
+		7557D6FC285BAD070059DE7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557D6EC285BAD060059DE7C /* ContentView.swift */; };
+		7557D6FD285BAD070059DE7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557D6EC285BAD060059DE7C /* ContentView.swift */; };
+		7557D6FE285BAD070059DE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7557D6ED285BAD070059DE7C /* Assets.xcassets */; };
+		7557D6FF285BAD070059DE7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7557D6ED285BAD070059DE7C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7557D6DC285BAA870059DE7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7557D6C7285BAA870059DE7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7557D6CF285BAA870059DE7C;
+			remoteInfo = VizuryEventLoggerSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7557D6D0285BAA870059DE7C /* VizuryEventLoggerSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VizuryEventLoggerSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7557D6D3285BAA870059DE7C /* VizuryEventLoggerSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VizuryEventLoggerSdk.h; sourceTree = "<group>"; };
+		7557D6D4285BAA870059DE7C /* VizuryEventLoggerSdk.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VizuryEventLoggerSdk.docc; sourceTree = "<group>"; };
+		7557D6DA285BAA870059DE7C /* VizuryEventLoggerSdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VizuryEventLoggerSdkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7557D6DF285BAA870059DE7C /* VizuryEventLoggerSdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VizuryEventLoggerSdkTests.swift; sourceTree = "<group>"; };
+		7557D6EB285BAD060059DE7C /* VizurySwiftSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VizurySwiftSampleApp.swift; sourceTree = "<group>"; };
+		7557D6EC285BAD060059DE7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7557D6ED285BAD070059DE7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7557D6F2285BAD070059DE7C /* VizurySwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VizurySwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7557D6F7285BAD070059DE7C /* VizurySwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VizurySwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7557D6F9285BAD070059DE7C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7557D6CD285BAA870059DE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557D6D7285BAA870059DE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557D6DB285BAA870059DE7C /* VizuryEventLoggerSdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557D6EF285BAD070059DE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557D6F4285BAD070059DE7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7557D6C6285BAA870059DE7C = {
+			isa = PBXGroup;
+			children = (
+				7557D6D2285BAA870059DE7C /* VizuryEventLoggerSdk */,
+				7557D6DE285BAA870059DE7C /* VizuryEventLoggerSdkTests */,
+				7557D6EA285BAD060059DE7C /* Shared */,
+				7557D6F8285BAD070059DE7C /* macOS */,
+				7557D6D1285BAA870059DE7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7557D6D1285BAA870059DE7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7557D6D0285BAA870059DE7C /* VizuryEventLoggerSdk.framework */,
+				7557D6DA285BAA870059DE7C /* VizuryEventLoggerSdkTests.xctest */,
+				7557D6F2285BAD070059DE7C /* VizurySwiftSample.app */,
+				7557D6F7285BAD070059DE7C /* VizurySwiftSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7557D6D2285BAA870059DE7C /* VizuryEventLoggerSdk */ = {
+			isa = PBXGroup;
+			children = (
+				7557D6D3285BAA870059DE7C /* VizuryEventLoggerSdk.h */,
+				7557D6D4285BAA870059DE7C /* VizuryEventLoggerSdk.docc */,
+			);
+			path = VizuryEventLoggerSdk;
+			sourceTree = "<group>";
+		};
+		7557D6DE285BAA870059DE7C /* VizuryEventLoggerSdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				7557D6DF285BAA870059DE7C /* VizuryEventLoggerSdkTests.swift */,
+			);
+			path = VizuryEventLoggerSdkTests;
+			sourceTree = "<group>";
+		};
+		7557D6EA285BAD060059DE7C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7557D6EB285BAD060059DE7C /* VizurySwiftSampleApp.swift */,
+				7557D6EC285BAD060059DE7C /* ContentView.swift */,
+				7557D6ED285BAD070059DE7C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7557D6F8285BAD070059DE7C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7557D6F9285BAD070059DE7C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7557D6CB285BAA870059DE7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557D6E1285BAA870059DE7C /* VizuryEventLoggerSdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7557D6CF285BAA870059DE7C /* VizuryEventLoggerSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7557D6E4285BAA870059DE7C /* Build configuration list for PBXNativeTarget "VizuryEventLoggerSdk" */;
+			buildPhases = (
+				7557D6CB285BAA870059DE7C /* Headers */,
+				7557D6CC285BAA870059DE7C /* Sources */,
+				7557D6CD285BAA870059DE7C /* Frameworks */,
+				7557D6CE285BAA870059DE7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VizuryEventLoggerSdk;
+			productName = VizuryEventLoggerSdk;
+			productReference = 7557D6D0285BAA870059DE7C /* VizuryEventLoggerSdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7557D6D9285BAA870059DE7C /* VizuryEventLoggerSdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7557D6E7285BAA870059DE7C /* Build configuration list for PBXNativeTarget "VizuryEventLoggerSdkTests" */;
+			buildPhases = (
+				7557D6D6285BAA870059DE7C /* Sources */,
+				7557D6D7285BAA870059DE7C /* Frameworks */,
+				7557D6D8285BAA870059DE7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7557D6DD285BAA870059DE7C /* PBXTargetDependency */,
+			);
+			name = VizuryEventLoggerSdkTests;
+			productName = VizuryEventLoggerSdkTests;
+			productReference = 7557D6DA285BAA870059DE7C /* VizuryEventLoggerSdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7557D6F1285BAD070059DE7C /* VizurySwiftSample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7557D700285BAD070059DE7C /* Build configuration list for PBXNativeTarget "VizurySwiftSample (iOS)" */;
+			buildPhases = (
+				7557D6EE285BAD070059DE7C /* Sources */,
+				7557D6EF285BAD070059DE7C /* Frameworks */,
+				7557D6F0285BAD070059DE7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VizurySwiftSample (iOS)";
+			productName = "VizurySwiftSample (iOS)";
+			productReference = 7557D6F2285BAD070059DE7C /* VizurySwiftSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7557D6F6285BAD070059DE7C /* VizurySwiftSample (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7557D703285BAD070059DE7C /* Build configuration list for PBXNativeTarget "VizurySwiftSample (macOS)" */;
+			buildPhases = (
+				7557D6F3285BAD070059DE7C /* Sources */,
+				7557D6F4285BAD070059DE7C /* Frameworks */,
+				7557D6F5285BAD070059DE7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VizurySwiftSample (macOS)";
+			productName = "VizurySwiftSample (macOS)";
+			productReference = 7557D6F7285BAD070059DE7C /* VizurySwiftSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7557D6C7285BAA870059DE7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7557D6CF285BAA870059DE7C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7557D6D9285BAA870059DE7C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7557D6F1285BAD070059DE7C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7557D6F6285BAD070059DE7C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7557D6CA285BAA870059DE7C /* Build configuration list for PBXProject "VizuryEventLoggerSdk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7557D6C6285BAA870059DE7C;
+			productRefGroup = 7557D6D1285BAA870059DE7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7557D6CF285BAA870059DE7C /* VizuryEventLoggerSdk */,
+				7557D6D9285BAA870059DE7C /* VizuryEventLoggerSdkTests */,
+				7557D6F1285BAD070059DE7C /* VizurySwiftSample (iOS) */,
+				7557D6F6285BAD070059DE7C /* VizurySwiftSample (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7557D6CE285BAA870059DE7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557D6D8285BAA870059DE7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557D6F0285BAD070059DE7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557D6FE285BAD070059DE7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557D6F5285BAD070059DE7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557D6FF285BAD070059DE7C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7557D6CC285BAA870059DE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557D6D5285BAA870059DE7C /* VizuryEventLoggerSdk.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557D6D6285BAA870059DE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557D6E0285BAA870059DE7C /* VizuryEventLoggerSdkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557D6EE285BAD070059DE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557D6FC285BAD070059DE7C /* ContentView.swift in Sources */,
+				7557D6FA285BAD070059DE7C /* VizurySwiftSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557D6F3285BAD070059DE7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557D6FD285BAD070059DE7C /* ContentView.swift in Sources */,
+				7557D6FB285BAD070059DE7C /* VizurySwiftSampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7557D6DD285BAA870059DE7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7557D6CF285BAA870059DE7C /* VizuryEventLoggerSdk */;
+			targetProxy = 7557D6DC285BAA870059DE7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7557D6E2285BAA870059DE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7557D6E3285BAA870059DE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7557D6E5285BAA870059DE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.VizuryEventLoggerSdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7557D6E6285BAA870059DE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.VizuryEventLoggerSdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7557D6E8285BAA870059DE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.VizuryEventLoggerSdkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7557D6E9285BAA870059DE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.VizuryEventLoggerSdkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7557D701285BAD070059DE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.VizurySwiftSample;
+				PRODUCT_NAME = VizurySwiftSample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7557D702285BAD070059DE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.VizurySwiftSample;
+				PRODUCT_NAME = VizurySwiftSample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7557D704285BAD070059DE7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.VizurySwiftSample;
+				PRODUCT_NAME = VizurySwiftSample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7557D705285BAD070059DE7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVJQV2LNHC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Affle.VizurySwiftSample;
+				PRODUCT_NAME = VizurySwiftSample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7557D6CA285BAA870059DE7C /* Build configuration list for PBXProject "VizuryEventLoggerSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7557D6E2285BAA870059DE7C /* Debug */,
+				7557D6E3285BAA870059DE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7557D6E4285BAA870059DE7C /* Build configuration list for PBXNativeTarget "VizuryEventLoggerSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7557D6E5285BAA870059DE7C /* Debug */,
+				7557D6E6285BAA870059DE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7557D6E7285BAA870059DE7C /* Build configuration list for PBXNativeTarget "VizuryEventLoggerSdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7557D6E8285BAA870059DE7C /* Debug */,
+				7557D6E9285BAA870059DE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7557D700285BAD070059DE7C /* Build configuration list for PBXNativeTarget "VizurySwiftSample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7557D701285BAD070059DE7C /* Debug */,
+				7557D702285BAD070059DE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7557D703285BAD070059DE7C /* Build configuration list for PBXNativeTarget "VizurySwiftSample (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7557D704285BAD070059DE7C /* Debug */,
+				7557D705285BAD070059DE7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7557D6C7285BAA870059DE7C /* Project object */;
+}
